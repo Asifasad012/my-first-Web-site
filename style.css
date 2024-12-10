@@ -1,0 +1,95 @@
+header
+{
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+    background-color: rgb(10, 70, 83);
+    color: cadetblue;
+ }
+header:hover
+{
+    background-color: rgb(69, 148, 166);
+    color: rgb(2, 29, 30);
+  opacity: 20px; 
+}
+nav
+{
+    background-color: blue;
+    color: white;
+   padding: 10px;
+   height: 25px;
+   box-shadow:-5px -5px 10px;
+  border-radius: 20px;
+}
+nav a
+{
+    text-decoration: none;
+}
+nav:hover{
+    
+    background-color: lightblue;
+    color: rgb(147, 154, 154);
+    opacity: 20px;
+}
+section
+  {
+    display: flex;
+  }
+ article
+  {
+  flex: 3;
+  padding: 20px;
+  background-color: lightblue;
+  margin-right: 15px;
+  box-shadow:-5px -5px 10px;
+  border-radius: 20px;
+}
+ aside{
+  
+    flex: 2;
+   padding: 20px;
+  background-color: lightgray;
+  margin-right: 15px;
+  box-shadow:inset 5px 5px 10px;
+  border-radius: 20px; 
+  }
+button
+{
+    align-items: center;
+    background-color: blue;
+    color: cadetblue;
+    font-size: 1.50rem;
+}
+button:hover
+{
+    background-color: red;
+    color: black;
+}
+footer
+{
+    background-color: rgb(10, 70, 83);
+    color: cadetblue;
+    padding: 55px;
+    height: 40px;    text-align:center;
+    align-content:center;
+ font-size:large;
+ box-shadow:-5px -5px 10px;
+  border-radius: 20px;
+}
+footer:hover
+{
+    
+    background-color: rgb(69, 134, 149);
+    color: rgb(10, 27, 90);
+    opacity: 20px;
+}
+article{
+    flex: 3;
+    order: 1;
+}
+aside[
+    
+flex: 2;
+order: 1;
+]
